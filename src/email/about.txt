@@ -1,0 +1,8 @@
+Description: Manages all email-related functionalities.
+
+Schemas: None
+
+Key Features:
+Email Confirmation: Send a link to confirm the email address after registration.
+Password Reset: Generate and send a reset link to users who forget their password.
+Notifications: Optional notifications for sales, promotions, etc.

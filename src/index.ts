@@ -4,6 +4,7 @@ import cors from "cors";
 import paymentRouter from "./payment/payment.route";
 import checkoutRouter from "./stripe-checkout/stripeCheckout.route";
 import smartButtonRouter from "./paypal-smart-button/paypalSmartButton.route";
+import formRouter from "./multiadmin-form/form.routes";
 
 const app = express();
 const port = 7979;
@@ -21,6 +22,8 @@ app.use("/payment", paymentRouter);
 app.use("/checkout-session", checkoutRouter);
 
 app.use("/paypal", smartButtonRouter);
+
+app.use("/api", formRouter);
 
 // app.use("/payment", paymentRouter);
 
