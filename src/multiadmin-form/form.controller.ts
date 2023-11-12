@@ -24,13 +24,13 @@ This request is currently pending verification. Upon successful payment verifica
 Thank you for choosing DotBrand!
 
 Best Regards,
-DotBrand Team
+DotBrand Team 
 `;
 
     // Send the email
     send({
       from: "noreply@dotbrand.com",
-      to: "your@email.com", // Replace with your actual email
+      to: "superadmin@superadmin.io", // Replace with your actual email
       subject: emailSubject,
       text: emailText,
     });
